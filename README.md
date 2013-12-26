@@ -1,2 +1,3 @@
 flymetothemoon
 ==============
+$ git init
