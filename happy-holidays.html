@@ -8,6 +8,17 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://cacpg.herokuapp.com/js/demos/snowfall.min.js"></script>
 <script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45693549-2', 'etia.github.io');
+  ga('send', 'pageview');
+</script>
+
 $(document).ready(function() {
     snowFall.snow($("section"), {
         minSize: 1,
@@ -21,7 +32,6 @@ $(document).ready(function() {
 </script>
     </head>
     <body>
-    <!-- Add your heading below this line -->
     <section>
       <h2 id="letitsnow2">Let it snow! Let it snow!</h2>
       <h2 id="letitsnow1">Let it snow!</h2>
