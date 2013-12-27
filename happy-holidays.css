@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+section {
+    //You will add new style rules here
+    background: url(https://db.tt/ExDAtqJG);
+    background-size:700px 500px;
+   width: 700px;
+   height: 500px;
+   //color:white;
+   font-family: Lobster;
+   position:relative;
+   margin:auto;
+}
+h1 {
+    font-size: 48px;
+    color: #CC0000;
+    position:absolute;
+    margin:0;
+    top:0;
+    left:40px;
+}
+#letitsnow1 { 
+    font-size: 36px;
+    color: #00CC00;
+    position: absolute;
+    margin: 0;
+    top: 88px;
+    left: 140px;
+}
+#letitsnow2 { 
+    font-size: 36px;
+    color: #00CC00;
+    position: absolute;
+    margin: 0;
+    top: 60px;
+    left: 70px;
+}
+img { 
+    position: absolute;
+    top: 240px;
+    left: 120px;
+}
+body {
+    background: #99CCFF;
+}
